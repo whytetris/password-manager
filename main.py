@@ -17,7 +17,7 @@ key = ''
 class Test():
     def __init__(self):
         self.window =Tk()
-        self.window.geometry('300x200')
+        self.window.geometry('300x180')
 
         text = Label(self.window, text="Entry KEY", font=("Arial Bold", 15))
         text.pack(anchor=CENTER,pady=10)
@@ -35,7 +35,7 @@ class Test():
 
     def main_menu(self,key):
         self.window =Tk()
-        self.window.geometry('300x300')
+        self.window.geometry('300x280')
 
         status_label = Label(self.window, text="KEY: "+key, font=("Arial Bold",15))
         status_label.pack(anchor=CENTER, pady=10)

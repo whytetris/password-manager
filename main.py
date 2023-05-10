@@ -9,6 +9,12 @@ import sqlite3
 import base64
 import os
 
+import cryptocode #add encryption
+
+
+#encoded = cryptocode.encrypt("mystring","mypassword")
+## And then to decode it:
+#decoded = cryptocode.decrypt(encoded, "mypassword")
 
 # Create, random, Copy, remove, db, password and encryption
 
@@ -59,8 +65,9 @@ class Test():
 
         self.window.mainloop()
 
-def test(key):
-    print(key)
+    def create_pass(self,key):
+        #create page
+
 
 
 
